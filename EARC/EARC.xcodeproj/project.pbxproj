@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1B74F36FE9C275207ADAEA /* libPods-EARC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8606A5460A081E10BBEE81 /* libPods-EARC.a */; };
+		785B030C2B4B55EC848430BB /* libPods-EARCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 683F6D2A65E6710A0E380509 /* libPods-EARCTests.a */; };
+		979D06B11F45760700ADC5DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 979D06B01F45760700ADC5DA /* main.m */; };
+		979D06B41F45760700ADC5DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 979D06B31F45760700ADC5DA /* AppDelegate.m */; };
+		979D06B71F45760700ADC5DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 979D06B61F45760700ADC5DA /* ViewController.m */; };
+		979D06BA1F45760700ADC5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979D06B81F45760700ADC5DA /* Main.storyboard */; };
+		979D06BC1F45760700ADC5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979D06BB1F45760700ADC5DA /* Assets.xcassets */; };
+		979D06BF1F45760700ADC5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979D06BD1F45760700ADC5DA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979D06C61F45760700ADC5DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979D06A41F45760700ADC5DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979D06AB1F45760700ADC5DA;
+			remoteInfo = EARC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E8606A5460A081E10BBEE81 /* libPods-EARC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EARC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1589628EA4B714C01F6290BC /* Pods-EARC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EARC.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-EARC/Pods-EARC.debug.xcconfig"; sourceTree = "<group>"; };
+		224EB28763F1F273C2D607C7 /* Pods-EARC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EARC.release.xcconfig"; path = "../Pods/Target Support Files/Pods-EARC/Pods-EARC.release.xcconfig"; sourceTree = "<group>"; };
+		683F6D2A65E6710A0E380509 /* libPods-EARCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EARCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		979D06AC1F45760700ADC5DA /* EARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979D06B01F45760700ADC5DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		979D06B21F45760700ADC5DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		979D06B31F45760700ADC5DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		979D06B51F45760700ADC5DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		979D06B61F45760700ADC5DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		979D06B91F45760700ADC5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979D06BB1F45760700ADC5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979D06BE1F45760700ADC5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		979D06C01F45760700ADC5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979D06C51F45760700ADC5DA /* EARCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EARCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979D06CB1F45760700ADC5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4373EB55EFE2EEAA9348423 /* Pods-EARCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EARCTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-EARCTests/Pods-EARCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED4898D7DA365997791061CE /* Pods-EARCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EARCTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-EARCTests/Pods-EARCTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979D06A91F45760700ADC5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1B74F36FE9C275207ADAEA /* libPods-EARC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979D06C21F45760700ADC5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785B030C2B4B55EC848430BB /* libPods-EARCTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8232B396A553A9D73A1B5A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E8606A5460A081E10BBEE81 /* libPods-EARC.a */,
+				683F6D2A65E6710A0E380509 /* libPods-EARCTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8994C79A694792800615A5F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1589628EA4B714C01F6290BC /* Pods-EARC.debug.xcconfig */,
+				224EB28763F1F273C2D607C7 /* Pods-EARC.release.xcconfig */,
+				B4373EB55EFE2EEAA9348423 /* Pods-EARCTests.debug.xcconfig */,
+				ED4898D7DA365997791061CE /* Pods-EARCTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		979D06A31F45760700ADC5DA = {
+			isa = PBXGroup;
+			children = (
+				979D06AE1F45760700ADC5DA /* EARC */,
+				979D06C81F45760700ADC5DA /* EARCTests */,
+				979D06AD1F45760700ADC5DA /* Products */,
+				8994C79A694792800615A5F9 /* Pods */,
+				8232B396A553A9D73A1B5A76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		979D06AD1F45760700ADC5DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979D06AC1F45760700ADC5DA /* EARC.app */,
+				979D06C51F45760700ADC5DA /* EARCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979D06AE1F45760700ADC5DA /* EARC */ = {
+			isa = PBXGroup;
+			children = (
+				979D06D71F4577EC00ADC5DA /* SupportingFile */,
+				979D06D61F4577DD00ADC5DA /* Layout */,
+				979D06D51F4577C600ADC5DA /* Feature */,
+				979D06D41F4577BC00ADC5DA /* App */,
+			);
+			path = EARC;
+			sourceTree = "<group>";
+		};
+		979D06C81F45760700ADC5DA /* EARCTests */ = {
+			isa = PBXGroup;
+			children = (
+				979D06CB1F45760700ADC5DA /* Info.plist */,
+			);
+			path = EARCTests;
+			sourceTree = "<group>";
+		};
+		979D06D41F4577BC00ADC5DA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				979D06B21F45760700ADC5DA /* AppDelegate.h */,
+				979D06B31F45760700ADC5DA /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		979D06D51F4577C600ADC5DA /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				979D06B51F45760700ADC5DA /* ViewController.h */,
+				979D06B61F45760700ADC5DA /* ViewController.m */,
+			);
+			name = Feature;
+			sourceTree = "<group>";
+		};
+		979D06D61F4577DD00ADC5DA /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				979D06B81F45760700ADC5DA /* Main.storyboard */,
+				979D06BD1F45760700ADC5DA /* LaunchScreen.storyboard */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		979D06D71F4577EC00ADC5DA /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				979D06C01F45760700ADC5DA /* Info.plist */,
+				979D06BB1F45760700ADC5DA /* Assets.xcassets */,
+				979D06B01F45760700ADC5DA /* main.m */,
+			);
+			name = SupportingFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979D06AB1F45760700ADC5DA /* EARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979D06CE1F45760700ADC5DA /* Build configuration list for PBXNativeTarget "EARC" */;
+			buildPhases = (
+				7E09ADAEC44FC419A429276C /* [CP] Check Pods Manifest.lock */,
+				979D06A81F45760700ADC5DA /* Sources */,
+				979D06A91F45760700ADC5DA /* Frameworks */,
+				979D06AA1F45760700ADC5DA /* Resources */,
+				4C124D8F5691073BAC95605E /* [CP] Embed Pods Frameworks */,
+				374850862450EAC138A67206 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EARC;
+			productName = EARC;
+			productReference = 979D06AC1F45760700ADC5DA /* EARC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		979D06C41F45760700ADC5DA /* EARCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979D06D11F45760700ADC5DA /* Build configuration list for PBXNativeTarget "EARCTests" */;
+			buildPhases = (
+				A10A9C205F80E08060DC1BE6 /* [CP] Check Pods Manifest.lock */,
+				979D06C11F45760700ADC5DA /* Sources */,
+				979D06C21F45760700ADC5DA /* Frameworks */,
+				979D06C31F45760700ADC5DA /* Resources */,
+				D8CC36AAEF318EB9F62C54BD /* [CP] Embed Pods Frameworks */,
+				9406D96CD56A3EF503AA3431 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979D06C71F45760700ADC5DA /* PBXTargetDependency */,
+			);
+			name = EARCTests;
+			productName = EARCTests;
+			productReference = 979D06C51F45760700ADC5DA /* EARCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979D06A41F45760700ADC5DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "East Agile";
+				TargetAttributes = {
+					979D06AB1F45760700ADC5DA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R69758BRLK;
+						ProvisioningStyle = Automatic;
+					};
+					979D06C41F45760700ADC5DA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R69758BRLK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 979D06AB1F45760700ADC5DA;
+					};
+				};
+			};
+			buildConfigurationList = 979D06A71F45760700ADC5DA /* Build configuration list for PBXProject "EARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 979D06A31F45760700ADC5DA;
+			productRefGroup = 979D06AD1F45760700ADC5DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979D06AB1F45760700ADC5DA /* EARC */,
+				979D06C41F45760700ADC5DA /* EARCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979D06AA1F45760700ADC5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979D06BF1F45760700ADC5DA /* LaunchScreen.storyboard in Resources */,
+				979D06BC1F45760700ADC5DA /* Assets.xcassets in Resources */,
+				979D06BA1F45760700ADC5DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979D06C31F45760700ADC5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		374850862450EAC138A67206 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-EARC/Pods-EARC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C124D8F5691073BAC95605E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-EARC/Pods-EARC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E09ADAEC44FC419A429276C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EARC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9406D96CD56A3EF503AA3431 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-EARCTests/Pods-EARCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A10A9C205F80E08060DC1BE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EARCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CC36AAEF318EB9F62C54BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-EARCTests/Pods-EARCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979D06A81F45760700ADC5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979D06B71F45760700ADC5DA /* ViewController.m in Sources */,
+				979D06B41F45760700ADC5DA /* AppDelegate.m in Sources */,
+				979D06B11F45760700ADC5DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979D06C11F45760700ADC5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979D06C71F45760700ADC5DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979D06AB1F45760700ADC5DA /* EARC */;
+			targetProxy = 979D06C61F45760700ADC5DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		979D06B81F45760700ADC5DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979D06B91F45760700ADC5DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		979D06BD1F45760700ADC5DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979D06BE1F45760700ADC5DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		979D06CC1F45760700ADC5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		979D06CD1F45760700ADC5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979D06CF1F45760700ADC5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1589628EA4B714C01F6290BC /* Pods-EARC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R69758BRLK;
+				INFOPLIST_FILE = EARC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastagile.EARC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		979D06D01F45760700ADC5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 224EB28763F1F273C2D607C7 /* Pods-EARC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R69758BRLK;
+				INFOPLIST_FILE = EARC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastagile.EARC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		979D06D21F45760700ADC5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4373EB55EFE2EEAA9348423 /* Pods-EARCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R69758BRLK;
+				INFOPLIST_FILE = EARCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastagile.EARCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EARC.app/EARC";
+			};
+			name = Debug;
+		};
+		979D06D31F45760700ADC5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4898D7DA365997791061CE /* Pods-EARCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R69758BRLK;
+				INFOPLIST_FILE = EARCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastagile.EARCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EARC.app/EARC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979D06A71F45760700ADC5DA /* Build configuration list for PBXProject "EARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979D06CC1F45760700ADC5DA /* Debug */,
+				979D06CD1F45760700ADC5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979D06CE1F45760700ADC5DA /* Build configuration list for PBXNativeTarget "EARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979D06CF1F45760700ADC5DA /* Debug */,
+				979D06D01F45760700ADC5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979D06D11F45760700ADC5DA /* Build configuration list for PBXNativeTarget "EARCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979D06D21F45760700ADC5DA /* Debug */,
+				979D06D31F45760700ADC5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 979D06A41F45760700ADC5DA /* Project object */;
+}
