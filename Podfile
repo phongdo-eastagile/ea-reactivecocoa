@@ -1,10 +1,11 @@
 platform :ios, '8.0'
 inhibit_all_warnings!
+use_frameworks!
 
 project 'EARC/EARC.xcodeproj'
 
 def pod_development
-    pod 'ReactiveCocoa'
+    pod 'ReactiveObjC'
 end
 
 target :EARC do

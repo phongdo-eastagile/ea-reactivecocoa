@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C1B74F36FE9C275207ADAEA /* libPods-EARC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8606A5460A081E10BBEE81 /* libPods-EARC.a */; };
-		785B030C2B4B55EC848430BB /* libPods-EARCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 683F6D2A65E6710A0E380509 /* libPods-EARCTests.a */; };
+		78436548D9BF0DC98136DFBF /* Pods_EARCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC490D25C4F21D44EF872506 /* Pods_EARCTests.framework */; };
+		972CDF711F457BFD0034D9A1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972CDF701F457BFD0034D9A1 /* SearchViewController.m */; };
+		972CDF741F457D870034D9A1 /* SearchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 972CDF731F457D870034D9A1 /* SearchViewModel.m */; };
+		972CDF781F4585320034D9A1 /* UISearchBar+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 972CDF771F4585320034D9A1 /* UISearchBar+RAC.m */; };
 		979D06B11F45760700ADC5DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 979D06B01F45760700ADC5DA /* main.m */; };
 		979D06B41F45760700ADC5DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 979D06B31F45760700ADC5DA /* AppDelegate.m */; };
-		979D06B71F45760700ADC5DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 979D06B61F45760700ADC5DA /* ViewController.m */; };
 		979D06BA1F45760700ADC5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979D06B81F45760700ADC5DA /* Main.storyboard */; };
 		979D06BC1F45760700ADC5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979D06BB1F45760700ADC5DA /* Assets.xcassets */; };
 		979D06BF1F45760700ADC5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979D06BD1F45760700ADC5DA /* LaunchScreen.storyboard */; };
+		CE18EC6518D1DC7FC92C60A7 /* Pods_EARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96546FE100E4BFEBB3E0E99A /* Pods_EARC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,16 +30,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E8606A5460A081E10BBEE81 /* libPods-EARC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EARC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1589628EA4B714C01F6290BC /* Pods-EARC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EARC.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-EARC/Pods-EARC.debug.xcconfig"; sourceTree = "<group>"; };
 		224EB28763F1F273C2D607C7 /* Pods-EARC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EARC.release.xcconfig"; path = "../Pods/Target Support Files/Pods-EARC/Pods-EARC.release.xcconfig"; sourceTree = "<group>"; };
-		683F6D2A65E6710A0E380509 /* libPods-EARCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EARCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96546FE100E4BFEBB3E0E99A /* Pods_EARC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EARC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		972CDF6F1F457BFD0034D9A1 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		972CDF701F457BFD0034D9A1 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		972CDF721F457D870034D9A1 /* SearchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewModel.h; sourceTree = "<group>"; };
+		972CDF731F457D870034D9A1 /* SearchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewModel.m; sourceTree = "<group>"; };
+		972CDF761F4585320034D9A1 /* UISearchBar+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+RAC.h"; sourceTree = "<group>"; };
+		972CDF771F4585320034D9A1 /* UISearchBar+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+RAC.m"; sourceTree = "<group>"; };
 		979D06AC1F45760700ADC5DA /* EARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979D06B01F45760700ADC5DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		979D06B21F45760700ADC5DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		979D06B31F45760700ADC5DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		979D06B51F45760700ADC5DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		979D06B61F45760700ADC5DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		979D06B91F45760700ADC5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		979D06BB1F45760700ADC5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		979D06BE1F45760700ADC5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,6 +50,7 @@
 		979D06C51F45760700ADC5DA /* EARCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EARCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		979D06CB1F45760700ADC5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4373EB55EFE2EEAA9348423 /* Pods-EARCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EARCTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-EARCTests/Pods-EARCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC490D25C4F21D44EF872506 /* Pods_EARCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EARCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4898D7DA365997791061CE /* Pods-EARCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EARCTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-EARCTests/Pods-EARCTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C1B74F36FE9C275207ADAEA /* libPods-EARC.a in Frameworks */,
+				CE18EC6518D1DC7FC92C60A7 /* Pods_EARC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				785B030C2B4B55EC848430BB /* libPods-EARCTests.a in Frameworks */,
+				78436548D9BF0DC98136DFBF /* Pods_EARCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +77,8 @@
 		8232B396A553A9D73A1B5A76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E8606A5460A081E10BBEE81 /* libPods-EARC.a */,
-				683F6D2A65E6710A0E380509 /* libPods-EARCTests.a */,
+				96546FE100E4BFEBB3E0E99A /* Pods_EARC.framework */,
+				EC490D25C4F21D44EF872506 /* Pods_EARCTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,6 +92,15 @@
 				ED4898D7DA365997791061CE /* Pods-EARCTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		972CDF751F4584E50034D9A1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				972CDF761F4585320034D9A1 /* UISearchBar+RAC.h */,
+				972CDF771F4585320034D9A1 /* UISearchBar+RAC.m */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 		979D06A31F45760700ADC5DA = {
@@ -130,6 +145,7 @@
 		979D06D41F4577BC00ADC5DA /* App */ = {
 			isa = PBXGroup;
 			children = (
+				972CDF751F4584E50034D9A1 /* Extension */,
 				979D06B21F45760700ADC5DA /* AppDelegate.h */,
 				979D06B31F45760700ADC5DA /* AppDelegate.m */,
 			);
@@ -139,8 +155,10 @@
 		979D06D51F4577C600ADC5DA /* Feature */ = {
 			isa = PBXGroup;
 			children = (
-				979D06B51F45760700ADC5DA /* ViewController.h */,
-				979D06B61F45760700ADC5DA /* ViewController.m */,
+				972CDF6F1F457BFD0034D9A1 /* SearchViewController.h */,
+				972CDF701F457BFD0034D9A1 /* SearchViewController.m */,
+				972CDF721F457D870034D9A1 /* SearchViewModel.h */,
+				972CDF731F457D870034D9A1 /* SearchViewModel.m */,
 			);
 			name = Feature;
 			sourceTree = "<group>";
@@ -291,9 +309,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-EARC/Pods-EARC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -373,8 +394,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				979D06B71F45760700ADC5DA /* ViewController.m in Sources */,
 				979D06B41F45760700ADC5DA /* AppDelegate.m in Sources */,
+				972CDF781F4585320034D9A1 /* UISearchBar+RAC.m in Sources */,
+				972CDF711F457BFD0034D9A1 /* SearchViewController.m in Sources */,
+				972CDF741F457D870034D9A1 /* SearchViewModel.m in Sources */,
 				979D06B11F45760700ADC5DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
