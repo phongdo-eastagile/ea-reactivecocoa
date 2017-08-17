@@ -4,7 +4,7 @@ inhibit_all_warnings!
 project 'EARC/EARC.xcodeproj'
 
 def pod_development
-    pod 'ReactiveObjC'
+    pod 'ReactiveCocoa'
 end
 
 target :EARC do
