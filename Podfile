@@ -8,13 +8,15 @@ def pod_development
     pod 'ReactiveObjC'
 end
 
+def pod_test
+    pod 'OCMock'
+end
+
 target :EARC do
     pod_development
-end
-
-def pod_test
-end
-
-target :EARCTests do
-    pod_test
+    
+    target :EARCTests do
+        inherit! :search_paths
+        pod_test
+    end
 end

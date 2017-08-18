@@ -18,6 +18,8 @@
 @implementation GithubUserTests
 
 - (void)setUp {
+    [super setUp];
+    
     githubUserDictionary = @{
                              @"login": @"phongdoduy",
                              @"id": @25846528,
@@ -25,14 +27,13 @@
                              @"name": @"Do Duy Phong",
                              @"email": @"phong.doduy1504@gmail.com"
                              };
-    [super setUp];
 }
 
 - (void)tearDown {
     [super tearDown];
 }
 
-- (void)testThatGithubUserEntityIsCreatedCorrectlyWhenParsingFromDictionaryValue {
+- (void)testThatGithubUserEntityShouldBeCreatedCorrectlyWhenParsingFromDictionaryValue {
     GithubUser *githubUser = [[GithubUser alloc] initWithDictionary:githubUserDictionary];
     XCTAssertEqual(githubUser.identifier, 25846528);
     XCTAssertEqual(githubUser.userName, @"phongdoduy");
