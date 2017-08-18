@@ -18,14 +18,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self bindViewModel];
-}
-
-#pragma mark - Data binding
-
-- (void)bindViewModel {
-    RAC(self.viewModel, searchText) = [self.searchBar rac_textSignal];
 }
 
 @end

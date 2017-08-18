@@ -10,9 +10,8 @@
 		78436548D9BF0DC98136DFBF /* Pods_EARCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC490D25C4F21D44EF872506 /* Pods_EARCTests.framework */; };
 		972049561F46780A00236AA0 /* GithubUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972049551F46780A00236AA0 /* GithubUserTests.m */; };
 		9720495A1F4679E300236AA0 /* GithubUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 972049591F4679E300236AA0 /* GithubUser.m */; };
+		9720495C1F46880E00236AA0 /* SearchViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9720495B1F46880E00236AA0 /* SearchViewModelTests.m */; };
 		972CDF711F457BFD0034D9A1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972CDF701F457BFD0034D9A1 /* SearchViewController.m */; };
-		972CDF741F457D870034D9A1 /* SearchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 972CDF731F457D870034D9A1 /* SearchViewModel.m */; };
-		972CDF781F4585320034D9A1 /* UISearchBar+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 972CDF771F4585320034D9A1 /* UISearchBar+RAC.m */; };
 		979D06B11F45760700ADC5DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 979D06B01F45760700ADC5DA /* main.m */; };
 		979D06B41F45760700ADC5DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 979D06B31F45760700ADC5DA /* AppDelegate.m */; };
 		979D06BA1F45760700ADC5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979D06B81F45760700ADC5DA /* Main.storyboard */; };
@@ -38,12 +37,9 @@
 		972049551F46780A00236AA0 /* GithubUserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubUserTests.m; sourceTree = "<group>"; };
 		972049581F4679E300236AA0 /* GithubUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GithubUser.h; sourceTree = "<group>"; };
 		972049591F4679E300236AA0 /* GithubUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubUser.m; sourceTree = "<group>"; };
+		9720495B1F46880E00236AA0 /* SearchViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewModelTests.m; sourceTree = "<group>"; };
 		972CDF6F1F457BFD0034D9A1 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		972CDF701F457BFD0034D9A1 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
-		972CDF721F457D870034D9A1 /* SearchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewModel.h; sourceTree = "<group>"; };
-		972CDF731F457D870034D9A1 /* SearchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewModel.m; sourceTree = "<group>"; };
-		972CDF761F4585320034D9A1 /* UISearchBar+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+RAC.h"; sourceTree = "<group>"; };
-		972CDF771F4585320034D9A1 /* UISearchBar+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+RAC.m"; sourceTree = "<group>"; };
 		979D06AC1F45760700ADC5DA /* EARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979D06B01F45760700ADC5DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		979D06B21F45760700ADC5DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,15 +104,6 @@
 			name = Entity;
 			sourceTree = "<group>";
 		};
-		972CDF751F4584E50034D9A1 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				972CDF761F4585320034D9A1 /* UISearchBar+RAC.h */,
-				972CDF771F4585320034D9A1 /* UISearchBar+RAC.m */,
-			);
-			name = Extension;
-			sourceTree = "<group>";
-		};
 		979D06A31F45760700ADC5DA = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +140,7 @@
 			children = (
 				979D06CB1F45760700ADC5DA /* Info.plist */,
 				972049551F46780A00236AA0 /* GithubUserTests.m */,
+				9720495B1F46880E00236AA0 /* SearchViewModelTests.m */,
 			);
 			path = EARCTests;
 			sourceTree = "<group>";
@@ -161,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				972049571F4679CB00236AA0 /* Entity */,
-				972CDF751F4584E50034D9A1 /* Extension */,
 				979D06B21F45760700ADC5DA /* AppDelegate.h */,
 				979D06B31F45760700ADC5DA /* AppDelegate.m */,
 			);
@@ -173,8 +160,6 @@
 			children = (
 				972CDF6F1F457BFD0034D9A1 /* SearchViewController.h */,
 				972CDF701F457BFD0034D9A1 /* SearchViewController.m */,
-				972CDF721F457D870034D9A1 /* SearchViewModel.h */,
-				972CDF731F457D870034D9A1 /* SearchViewModel.m */,
 			);
 			name = Feature;
 			sourceTree = "<group>";
@@ -411,9 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				979D06B41F45760700ADC5DA /* AppDelegate.m in Sources */,
-				972CDF781F4585320034D9A1 /* UISearchBar+RAC.m in Sources */,
 				972CDF711F457BFD0034D9A1 /* SearchViewController.m in Sources */,
-				972CDF741F457D870034D9A1 /* SearchViewModel.m in Sources */,
 				979D06B11F45760700ADC5DA /* main.m in Sources */,
 				9720495A1F4679E300236AA0 /* GithubUser.m in Sources */,
 			);
@@ -423,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9720495C1F46880E00236AA0 /* SearchViewModelTests.m in Sources */,
 				972049561F46780A00236AA0 /* GithubUserTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
